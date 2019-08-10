@@ -40,7 +40,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="ip">
+        <widget class="QLineEdit" name="address">
          <property name="text">
           <string>8.8.8.8</string>
          </property>
@@ -59,6 +59,19 @@
       </layout>
      </item>
     </layout>
+   </widget>
+   <widget class="QLabel" name="ping_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>160</y>
+      <width>19</width>
+      <height>207</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0ms</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">

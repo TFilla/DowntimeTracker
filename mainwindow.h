@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 
+#include <QProcess>
 #include <QDebug>
 #include <QString>
 #include <QDate>
@@ -23,8 +24,9 @@ public:
 private slots:
     void on_actionExit_triggered();
     void on_boolping_stateChanged(int arg1);
-    void on_ip_editingFinished();
+    void on_address_editingFinished();
     void update_ping(double ping_value);
+    void get_ping(QString ip_address);
 
 private:
     Ui::MainWindow *ui;
